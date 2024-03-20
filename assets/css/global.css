@@ -1,0 +1,74 @@
+* {
+    font-family: 'roboto', sans-serif;
+    color: #2e3059;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3170177.png&f=1&nofb=1&ipt=8710b61c353eb9bccb3fc3de72b32d7f0b9d1c707a61ce45bfb009a7157c2bfd&ipo=images);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(.2rem);
+}
+
+
+.content {
+    width: 100vw;
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255, .9);
+    height: auto;
+    box-shadow: 0 .625rem 1.5625rem rgba(0, 0, 0, .3);
+
+}
+
+h1 {
+    margin: 0;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1.3rem;
+    transition: transform .2s;
+}
+
+.pagination button {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 .625rem 1.5625rem rgba(0, 0, 0, .3);
+    border: none;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.pagination:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width:380px) {
+    .content {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .content {
+        max-width: 576px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .content {
+        max-width: 992px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+}
